@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# 1. Environments (보안 및 가상 환경 파일 - 절대 노출 금지)
+.env
+.venv
+env/
+venv/
+
+# 2. Python (파이썬 구동 시 자동 생성되는 캐시 및 컴파일 파일)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. OS (운영체제에서 자동 생성하는 시스템 파일)
+.DS_Store
+Thumbs.db
+
+# 4. Uploads (웹앱 작동 중 생성되는 임시 업로드 파일)
+temp_*
+
+# 5. IDE (VS Code, Codespaces 등 개발 에디터 개인 설정 파일)
+.vscode/
+.idea/
